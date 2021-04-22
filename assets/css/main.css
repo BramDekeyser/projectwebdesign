@@ -2440,3 +2440,6 @@ input, select, textarea {
 p.distance{
 	line-height: 5 em;
 }
+.fas{
+	position: relative;
+}
