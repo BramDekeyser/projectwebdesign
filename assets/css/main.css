@@ -1641,7 +1641,7 @@ input, select, textarea {
 			}
 
 				.box.feature1 header.second p {
-					line-height: 1em;
+					line-height: 1.6em;
 				}
 
 				.box.feature1 header.second:before {
@@ -2436,4 +2436,7 @@ input, select, textarea {
 }
 .spacebetween{
 	justify-content: space-around;
+}
+p.distance{
+	line-height: 5 em;
 }
