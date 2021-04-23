@@ -2443,3 +2443,9 @@ p.distance{
 .fas{
 	position: relative;
 }
+.liststyle{
+	list-style: inherit;
+}
+.liststyletrue li{
+	text-align: left;
+}
