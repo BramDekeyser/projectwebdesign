@@ -2464,3 +2464,18 @@ p.distance{
 #footer dd{
 	color: white;
 }
+.bgwhite{
+	background-color: white;
+}
+.eighty{
+	width: 80%
+}
+.fltlft{
+	float: left;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
