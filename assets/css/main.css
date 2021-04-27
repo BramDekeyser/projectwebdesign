@@ -2449,3 +2449,18 @@ p.distance{
 .liststyletrue li{
 	text-align: left;
 }
+#footer-wrapper{
+	background-image: url("images/bglogo.jpg");
+}
+.footerparagraaf{
+	color: white;
+}
+#footer a{
+	color: ghostwhite;
+}
+#footer li{
+	color: white;
+}
+#footer dd{
+	color: white;
+}
