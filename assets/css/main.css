@@ -2479,3 +2479,9 @@ p.distance{
   margin-right: auto;
   width: 50%;
 }
+.size{
+	width: 80%;
+}
+.circleimg{
+	border-radius: 50%;
+}
