@@ -80,23 +80,23 @@ Generaal de Wittestraat 11, 3545 Halen</p><p>Contacteer ons indien u vragen heef
 
   
   <div>
-    <label class="desc" id="title1" for="Field1">Naam</label>
+    <label class="desc" id="title1" for="name">Naam</label>
     <div>
-      <input id="Field1" name="name" type="text" class="field text fn" value="" size="8" tabindex="1">
+      <input id="name" name="name" type="text" class="field text fn" value="" size="8" tabindex="1">
     </div>
   </div>
     
   <div>
-    <label class="desc" id="title3" for="Field3">
+    <label class="desc" id="title3" for="email">
       Email
     </label>
     <div>
-      <input id="Field3" name="email" type="email" spellcheck="false" value="" maxlength="255" tabindex="3"> 
+      <input id="email" name="email" type="email" spellcheck="false" value="" maxlength="255" tabindex="3"> 
    </div>
   </div>
     
   <div>
-    <label class="desc" id="title4" for="Field4">
+    <label class="desc" id="title4" for="message">
       Bericht
     </label>
   
