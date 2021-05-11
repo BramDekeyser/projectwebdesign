@@ -82,7 +82,7 @@ Generaal de Wittestraat 11, 3545 Halen</p><p>Contacteer ons indien u vragen heef
   <div>
     <label class="desc" id="title1" for="Field1">Naam</label>
     <div>
-      <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
+      <input id="Field1" name="name" type="text" class="field text fn" value="" size="8" tabindex="1">
     </div>
   </div>
     
@@ -91,7 +91,7 @@ Generaal de Wittestraat 11, 3545 Halen</p><p>Contacteer ons indien u vragen heef
       Email
     </label>
     <div>
-      <input id="Field3" name="Field3" type="email" spellcheck="false" value="" maxlength="255" tabindex="3"> 
+      <input id="Field3" name="email" type="email" spellcheck="false" value="" maxlength="255" tabindex="3"> 
    </div>
   </div>
     
@@ -101,7 +101,7 @@ Generaal de Wittestraat 11, 3545 Halen</p><p>Contacteer ons indien u vragen heef
     </label>
   
     <div>
-      <textarea id="Field4" name="Field4" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+      <textarea id="Field4" name="message" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
     </div>
   </div>
     
@@ -237,7 +237,7 @@ Generaal de Wittestraat 11, 3545 Halen</p><p>Contacteer ons indien u vragen heef
 $email = $_POST['email'];
 $message = $_POST['message'];
 $formcontent="From: $name \n Message: $message";
-$recipient = "emailaddress@here.com";
+$recipient = "bramtrainer@gmail.com";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
